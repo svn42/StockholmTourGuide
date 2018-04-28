@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Stockholm Tour Guide</string>
+    <string name="category_museums">Museums</string>
+    <string name="category_sights">Sights</string>
+    <string name="category_parks">Parks</string>
+    <string name="category_islands">Islands</string>
+</resources>
