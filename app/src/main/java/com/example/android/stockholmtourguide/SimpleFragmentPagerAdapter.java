@@ -16,6 +16,7 @@
 package com.example.android.stockholmtourguide;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -23,11 +24,11 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
-
     private String tabTitles[] = new String[] { "The Archipelago" , "Sights", "Parks", "Museums" };
 
     public SimpleFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
+
     }
 
     @Override

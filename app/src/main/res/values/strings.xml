@@ -4,4 +4,135 @@
     <string name="category_sights">Sights</string>
     <string name="category_parks">Parks</string>
     <string name="category_islands">Islands</string>
+
+    <string name="click_on_location">Click on each location to navigate to it with Google Maps!</string>
+
+    <!-- Island fragment -->
+    <string name ="archipelago_description_title">Welcome to Stockholm Archipelago!</string>
+    <string name ="archipelago_description">For archipelago explorers who want to discover more, these islands offer welcoming inns, hostels, and a genuine archipelago atmosphere. They are only a couple of hours away from the city, but we can assure you that you will feel as if you’ve entered a completely different world.</string>
+
+    <string name ="vaxholm_name">Vaxholm</string>
+    <string name ="vaxholm_address">185 32 Vaxholm</string>
+    <string name ="vaxholm_information">Idyllic archipelago town with many well-preserved wooden houses from the turn of the last century painted in the archipelago’s typical delicate pastel tones.</string>
+
+    <string name ="fjaederholmarna_name">Fjäderholmarna</string>
+    <string name ="fjaederholmarna_address">Stora Fjäderholmen 111 15 Stockholm</string>
+    <string name ="fjaederholmarna_information">Fjäderholmarna provides a nice taste of the archipelago for people who don`t have time to explore further. Boats depart from Strandvägen and Slussen during the summer.</string>
+
+    <string name ="ljusteroe_name">Ljusterö</string>
+    <string name ="ljusteroe_address">184 95 Ljusterö</string>
+    <string name ="ljusteroe_information">Ljusterö is one of the largest islands in the Stockholm archipelago. Known for its beautiful nature, its well preserved settings from the 1700s.</string>
+
+    <string name ="norrtaelje_name">Norrtälje</string>
+    <string name ="norrtaelje_address">761 30 Norrtälje</string>
+    <string name ="norrtaelje_information">A genuine small town with many old wooden houses and beautiful cobblestone roads along the water. Here you`ll find a rich cultural life with art, museums, music etc.</string>
+
+    <string name ="huvudskaer_name">Huvudskär</string>
+    <string name ="huvudskaer_address">S, 130 55 Utö</string>
+    <string name ="huvudskaer_information">Huvudskär is Haninge archipelago`s final outpost. A vast, beautiful archipelago with more than 200 islands, islets and rocks. In the Middle Ages, there was a fishing village.</string>
+
+    <string name ="graesoe_name">Gräsö</string>
+    <string name ="graesoe_address">Gräsö 742 97</string>
+    <string name ="graesoe_information">Gräsö which is Sweden’s tenth largest island has a unique cultural landscape with untouched outer archipelago, orchids and sea birds.</string>
+
+    <string name ="arholma_name">Arholma</string>
+    <string name ="arholma_address">Björkö-Arholma 764 54 Arholma</string>
+    <string name ="arholma_information">A legendary island with proud maritime traditions and a vibrant cultural community. On Arholma you`ll find many well-preserved houses and small farms</string>
+
+    <string name ="aengsoe_name">Ängsö</string>
+    <string name ="aengsoe_address">Ängsö 761 12</string>
+    <string name ="aengsoe_information">Ängsö is one of the first national parks in Sweden, and the county`s smallest. Over 400 different kinds of plant species grow here.</string>
+
+    <string name ="soederarm_name">Söderarm</string>
+    <string name ="soederarm_address">Tjockö Söderarm 2, 760 15 Gräddö</string>
+    <string name ="soederarm_information">Söderarm lighthouse is a public historical building well worth a visit. There is a conference centre on the island that`s open year-round for pre-booked groups.</string>
+
+    <!-- Parks fragment -->
+    <string name ="parks_description_title">Stockholm is green!</string>
+    <string name ="parks_description">Stockholm is practically a synonym for outdoor living, with parks and green spaces making up more than a third of the city. There are an impressive selection of public parks and pretty gardens that greet visitors to Stockholm, allowing you to enjoy recreational spaces, pleasant green surroundings and Swedish flora.</string>
+
+    <string name ="skansen_name">Skansen</string>
+    <string name ="skansen_address">Djurgårdsslätten 49, 51 11521 Stockholm</string>
+    <string name ="skansen_information">Skansen is the oldest open-air museum in the world and also the Stockholm zoo, with animals native to Scandinavia.</string>
+
+    <string name ="kungliga_djurgarden_name">Kungliga Djurgården</string>
+    <string name ="kungliga_djurgarden_address">Fredrik Bloms väg 115 21 Stockholm</string>
+    <string name ="kungliga_djurgarden_information">Djurgården island became the world´s first National City Park in the 1990s, gaining special protection thanks to its unique nature, culture and recreation offerings right in the middle of a capital.</string>
+
+    <string name ="ralambshovsparken_name">Rålambshovsparken</string>
+    <string name ="ralambshovsparken_address">Smedsuddsvägen 6, 112 35 Stockholm</string>
+    <string name ="ralambshovsparken_information">The park that locals call ‘Rålis’, is said to be inspired by Hyde Park in London and seeks to be a playground for visitors and residents alike, offering spots to play boule and volleyball.</string>
+
+    <string name ="observatorielunden_name">Observatorielunden</string>
+    <string name ="observatorielunden_address">Drottninggatan 120A, 113 60 Stockholm</string>
+    <string name ="observatorielunden_information">This small but pretty park leads you up a hill towards a magnificent view over the city. It’s the last trace of an esker that was formed when the last ice sheet receded from Sweden about 10,000 years ago.</string>
+
+    <string name ="tantolunden_name">Ängsö</string>
+    <string name ="tantolunden_address">Zinkens Väg, 118 42 Stockholm</string>
+    <string name ="tantolunden_information">Tantolunden is one of Stockholm’s largest inner city parks. Here, you’ll find colourful mini-summer houses and people gardening in their own small yards and the popular Tanto Beach.</string>
+
+    <string name ="humlegarden_name">Humlegården</string>
+    <string name ="humlegarden_address">Karlavägen 32, 114 31 Stockholm</string>
+    <string name ="humlegarden_information">Humlegården is right next to the buzzing Stureplan area packed with restaurants, hotels and expensive shops. Yet it still offers delightfully green and peaceful spot to relax in.</string>
+
+    <!-- Sights fragment -->
+    <string name ="sights_description_title">Sights and Vistas!</string>
+    <string name ="sights_description">Often called the "Venice of the North," Stockholm lies on a number of islands and peninsulas at the outflow of Lake Mälar into the Baltic, which here forms a deep inlet. The list of things to do in Stockholm could be made endless and there are more than a hundred attractions to choose from.</string>
+
+    <string name ="gamla_stan_name">Gamla stan</string>
+    <string name ="gamla_stan_address">Stortorget, 111 29 Stockholm</string>
+    <string name ="gamla_stan_information">Gamla Stan, the Old Town, is one of the largest and best preserved medieval city centers in Europe. This is where Stockholm was founded in 1252.</string>
+
+    <string name ="royal_name">The Royal Palace</string>
+    <string name ="royal_address">Slottsbacken 1</string>
+    <string name ="royal_information">The Royal Palace is the official residence of His Majesty the King of Sweden, with over 600 rooms. It also contains the Armory, with royal costumes and armor.</string>
+
+    <string name ="groena_name">Gröna Lund</string>
+    <string name ="groena_address">Lilla Allmänna Gänd 9 11521 Stockholm</string>
+    <string name ="groena_information">Experience the joyful and magical world of Gröna Lund, Stockholm´s amusement park. Dine in one of the restaurants, enjoy a pentathlon, a live concert or one of the 30 exciting rides.</string>
+
+    <string name ="drottningholm_name">Drottningholm Palace</string>
+    <string name ="drottningholm_address">178 02 Drottningholm</string>
+    <string name ="drottningholm_information">Experience a historic milieu of the highest standard. Drottningholm Palace is Sweden´s best-preserved royal palace constructed in the seventeenth century.</string>
+
+    <string name ="the_city_hall_name">The City Hall</string>
+    <string name ="the_city_hall_address">Hantverkargatan 1S Stockholm</string>
+    <string name ="the_city_hall_information">The City Hall, with its spire featuring the golden Three Crowns, is one of the famous silhouettes in Stockholm. It´s one of Sweden´s leading examples of national romanticism in architecture.</string>
+
+    <string name ="montelius_name">Monteliusvägen</string>
+    <string name ="montelius_address">Monteliusvägen Stockholm</string>
+    <string name ="montelius_information">A 500-meter long walking path with a magnificent view of Lake Mälaren, City Hall, and Riddarholmen. The path is lined with charming houses on one side and a beautiful view on the other.</string>
+
+    <!-- Museum fragment -->
+    <string name ="museums_description_title">Museums in Stockholm</string>
+    <string name ="museums_description">Stockholm is mad on museums and new and innovative places to showcase the city’s creative heritage. A penchant for hoarding heritage has led to a hefty collection of 70 museum offerings, while contemporary galleries continue to sprout alongside the Swedish capital’s artistic stalwarts.</string>
+
+    <string name ="fotografiska_name">Fotografiska</string>
+    <string name ="fotografiska_address">Stadsgårdshamnen 22, Stockholm</string>
+    <string name ="fotografiska_information">Stockholm´s largest space for contemporary photography is housed in a former industrial Art Nouveau style building dating back to 1906, with stunning views over Djurgården island. Remodelled by Swedish architect Ferdinand Boberg, the huge gallery opened in 2010 and quickly became one of the city´s hottest attractions.</string>
+
+    <string name ="moderna_name">Moderna Museet</string>
+    <string name ="moderna_address">Exercisplan, Skeppsholmen, Stockholm</string>
+    <string name ="moderna_information">Moderna Museet is situated on the pretty island of Skeppsholmen and can be accessed via a ferry from Slussen or on foot from the swanky Östermalm district. The bright red museum attracts big names in contemporary art; it recently hosted work from one of the most important sculptors of the last few decades, Louise Bourgeois.</string>
+
+    <string name ="arkdes_name">Arkdes</string>
+    <string name ="arkdes_address">Exercisplan 4, Skeppsholmen, Stockholm</string>
+    <string name ="arkdes_information">Sweden´s largest architecture museum, Arkdes, was founded in 1962. The museum is currently exhibiting some forty projects looking at how it could be possible to “hack” Stockholm´s design and infrastructure in order to develop new sustainable and visually stimulating solutions.</string>
+
+    <string name ="abba_name">ABBA Museum</string>
+    <string name ="abba_address">Djurgården 68, Stockholm</string>
+    <string name ="abba_information">Here you can spend a day singing in a mocked-up Polar Studio, meeting ABBA holograms and dancing alongside the Swedish heroes on stage. You can also sneak a peak at plenty of ABBA´s spectacular and eccentric stage costumes from the 1970s and 1980s.</string>
+
+    <string name ="tekniska_name">Tekniska Museet</string>
+    <string name ="tekniska_address">Museivägen 7, Stockholm</string>
+    <string name ="tekniska_information">Teknska Museet opened in 1936 and ever since then it has played host to millions of people curious to know more about technology. From September 6th 2015, a keynote exhibition entitled MEGA MIND is set to offer visitors the chance to "paint" with their eyes, make virtual sculptures or create music through the power of thought.</string>
+
+    <string name ="spirit_name">Spirit Museum</string>
+    <string name ="spirit_address">Djurgårdsvägen 38, Djurgården, Stockholm</string>
+    <string name ="spirit_information">Located in Stockholm’s two remaining 18th century naval buildings on the island of Djurgården, the Spirit Museum focuses on the history of colourful, bitter, sweet, strong, soft and bubbly types of alcohol. This is also where Sweden´s annual drinking song contest is held. Skål!</string>
+
+    <string name ="vasa_name">The Vasa Museum</string>
+    <string name ="vasa_address">Galärvarvsvägen 14 Stockholm</string>
+    <string name ="vasa_information">Today the Vasa Museum is the most visited museum in Scandinavia, with over one million visitors a year. There are ten different exhibitions around the ship to tell about life on board the ship. The film about the Vasa is shown in 13 different languages. In addition, there is a well-stocked shop and a pleasant restaurant.</string>
+
 </resources>

@@ -2,6 +2,7 @@ package com.example.android.stockholmtourguide;
 
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -24,17 +25,19 @@ public class MuseumsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
+        Resources res = getResources();
+
 
         final ArrayList<Location> locations = new ArrayList<Location>();
         // texts from www.visitstockholm.com and https://www.thelocal.se/20150813/ten-must-see-museums-and-galleries-in-stockholm and https://www.lonelyplanet.com/sweden/stockholm/things-to-do/museums-and-galleries-in-stockholm
-        locations.add(new Location("Museums in Stockholm","Click on each location to navigate to it with Google Maps!","Stockholm is mad on museums and new and innovative places to showcase the city’s creative heritage. A penchant for hoarding heritage has led to a hefty collection of 70 museum offerings, while contemporary galleries continue to sprout alongside the Swedish capital’s artistic stalwarts." , false));
-        locations.add(new Location("Fotografiska", "Stadsgårdshamnen 22, Stockholm", "Stockholm's largest space for contemporary photography is housed in a former industrial Art Nouveau style building dating back to 1906, with stunning views over Djurgården island. Remodelled by Swedish architect Ferdinand Boberg, the huge gallery opened in 2010 and quickly became one of the city's hottest attractions.",true));
-        locations.add(new Location("Moderna Museet", "Exercisplan, Skeppsholmen, Stockholm", "Moderna Museet is situated on the pretty island of Skeppsholmen and can be accessed via a ferry from Slussen or on foot from the swanky Östermalm district. The bright red museum attracts big names in contemporary art; it recently hosted work from one of the most important sculptors of the last few decades, Louise Bourgeois.", true));
-        locations.add(new Location("Arkdes", "Exercisplan 4, Skeppsholmen, Stockholm", "Sweden's largest architecture museum, Arkdes, was founded in 1962. The museum is currently exhibiting some forty projects looking at how it could be possible to “hack” Stockholm's design and infrastructure in order to develop new sustainable and visually stimulating solutions.",true));
-        locations.add(new Location("ABBA Museum", "Djurgården 68, Stockholm", "Here you can spend a day singing in a mocked-up Polar Studio, meeting ABBA holograms and dancing alongside the Swedish heroes on stage. You can also sneak a peak at plenty of ABBA's spectacular and eccentric stage costumes from the 1970s and 1980s.",true));
-        locations.add(new Location("Tekniska Museet", "Museivägen 7, Stockholm", "Teknska Museet opened in 1936 and ever since then it has played host to millions of people curious to know more about technology. From September 6th 2015, a keynote exhibition entitled MEGA MIND is set to offer visitors the chance to \"paint\" with their eyes, make virtual sculptures or create music through the power of thought.",true));
-        locations.add(new Location("Spirit Museum", "Djurgårdsvägen 38, Djurgården, Stockholm", "Located in Stockholm’s two remaining 18th century naval buildings on the island of Djurgården, the Spirit Museum focuses on the history of colourful, bitter, sweet, strong, soft and bubbly types of alcohol. This is also where Sweden's annual drinking song contest is held. Skål!",true));
-        locations.add(new Location("The Vasa Museum", "Galärvarvsvägen 14 Stockholm", "Today the Vasa Museum is the most visited museum in Scandinavia, with over one million visitors a year. There are ten different exhibitions around the ship to tell about life on board the ship. The film about the Vasa is shown in 13 different languages. In addition, there is a well-stocked shop and a pleasant restaurant.",true));
+        locations.add(new Location(res.getString(R.string.museums_description_title),res.getString(R.string.click_on_location),res.getString(R.string.museums_description), false));
+        locations.add(new Location(res.getString(R.string.fotografiska_name), res.getString(R.string.fotografiska_address),res.getString(R.string.fotografiska_information),true));
+        locations.add(new Location(res.getString(R.string.moderna_name), res.getString(R.string.moderna_address),res.getString(R.string.moderna_information),true));
+        locations.add(new Location(res.getString(R.string.arkdes_name), res.getString(R.string.arkdes_address),res.getString(R.string.arkdes_information),true));
+        locations.add(new Location(res.getString(R.string.abba_name), res.getString(R.string.abba_address),res.getString(R.string.abba_information),true));
+        locations.add(new Location(res.getString(R.string.tekniska_name), res.getString(R.string.tekniska_address),res.getString(R.string.tekniska_information),true));
+        locations.add(new Location(res.getString(R.string.spirit_name), res.getString(R.string.spirit_address),res.getString(R.string.spirit_information),true));
+        locations.add(new Location(res.getString(R.string.vasa_name), res.getString(R.string.vasa_address),res.getString(R.string.vasa_information),true));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.category_museums);
 
