@@ -24,11 +24,15 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
-    private String tabTitles[] = new String[] { "The Archipelago" , "Sights", "Parks", "Museums" };
+    private Context context;
+    private String tabTitles[];
 
-    public SimpleFragmentPagerAdapter(FragmentManager fm) {
+
+    public SimpleFragmentPagerAdapter(FragmentManager fm, Context con) {
         super(fm);
-
+        context = con;
+        Resources res = con.getResources();
+        tabTitles = new String[] { res.getString(R.string.category_islands),res.getString(R.string.category_sights),res.getString(R.string.category_parks), res.getString(R.string.category_museums) };
     }
 
     @Override
